@@ -1,0 +1,50 @@
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    /* Margin bottom by footer height */
+    margin-bottom: 100px;
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 70px;
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #f5f5f5;
+    text-align: center;
+    border-top: 10px solid #4aaaa5;
+  }
+
+body {
+    background-image: url(../images/what-the-hex.png);
+}
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}

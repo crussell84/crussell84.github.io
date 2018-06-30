@@ -10,11 +10,10 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
   <link rel="stylesheet" href="./assets/css/style.css">
-  <title>Christine Russell</title>
+  <title>Contact</title>
 </head>
 
 <body>
-
   <nav class="navbar navbar-expand-md navbar-light bg-light border-bottom">
     <a class="navbar-brand bg-info p-2 text-light" href="#">
       <h1>Christine Russell</h1>
@@ -24,57 +23,58 @@
     </button>
     <div class="navbar-collapse collapse justify-content-stretch" id="navbarItems">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link border-right" href="./index.html">About
-            <span class="sr-only">(current)</span>
           </a>
         </li>
         <li class="nav-item">
           <a class="nav-link border-right" href="./portfolio.html">Portfolio</a>
         </li>
 
-        <li class="nav-item">
+        <li class="nav-item active">
           <a class="nav-link" href="./contact.html">Contact</a>
+          <span class="sr-only">(current)</span>
         </li>
       </ul>
     </div>
   </nav>
 
-  <div class="container bg-light mt-4 border text-secondary">
+  <div class="container bg-light mt-4 mb-5 border text-secondary">
     <div class="row">
       <div class="col">
-        <h1 class="text-info p-2">About Me</h1>
+        <h1 class="text-info p-2">Contact</h1>
         <hr class="border border-secondary">
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-4 col-sm">
-        <img src="./assets/images/About.jpg" class="p-2 float-left img-fluid" alt="Me!">
-      </div>
-      <div class="col">
-        <p>Hello and welcome! I'm a former software tester who is now venturing into the wild world of web development! I worked
-          with Agile software teams to develop mobile web applications for several years, which got me interested in being
-          able to do the development part of things as well. I'm currently enrolled in an awesome bootcamp to aquire those
-          skills, which I expect to complete around December of this year.
-        </p>
-      </div>
-    </div>
 
     <div class="row">
       <div class="col">
-        <p>In my off time, I read Sci-Fi and Fantasy novels, play video games, watch anime, and knit. I live with my fiance
-          in our home in Rochester, which we share with 3 cats, 2 snakes, 6 turtles, and far to many fish to count.</p>
+        <form class="m-4">
+
+          <div class="form-group">
+            <label for="formGroupExampleInput">Name</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name">
+          </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-info">Submit</button>
+        </form>
       </div>
     </div>
   </div>
-
-  <footer class="footer bg-dark">
+  <footer class="footer bg-dark mt-4">
     <div class="container">
       <span class="text-muted">Copyright @</span>
     </div>
   </footer>
-
-
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

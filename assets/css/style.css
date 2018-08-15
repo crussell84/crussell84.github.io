@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Didact+Gothic');
 
 /* Sticky footer styles
 -------------------------------------------------- */
@@ -23,28 +24,17 @@ html {
 
 body {
     background-image: url(../images/what-the-hex.png);
+    font-family: 'Didact Gothic', sans-serif;
 }
-h1 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
+
+h1 h3 {
+  font-family: 'Berkshire Swash', cursive;
 }
+
+a {
+  font-weight: bold;
+}
+
 html {
   font-size: 1rem;
-}
-
-@include media-breakpoint-up(sm) {
-  html {
-    font-size: 1.2rem;
-  }
-}
-
-@include media-breakpoint-up(md) {
-  html {
-    font-size: 1.4rem;
-  }
-}
-
-@include media-breakpoint-up(lg) {
-  html {
-    font-size: 1.6rem;
-  }
 }

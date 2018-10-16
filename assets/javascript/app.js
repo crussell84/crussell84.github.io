@@ -56,7 +56,7 @@ var projectData = [{
     tags: ["node", "inquirer", "API"]
 }, {
     title: 'Bamazon',
-    imageSrc: './assets/images/bamazon.png',
+    imageSrc: './assets/images/bamazon.PNG',
     imageAlt: 'Bamazon',
     live: false,
     source: 'https://github.com/crussell84/bamazon',

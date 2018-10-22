@@ -70,6 +70,14 @@ var projectData = [{
     source: 'https://github.com/crussell84/ProjectTwo',
     blurb: 'Boxer is a lightweight, responsive inventory management tool built using Materialize, running on a Node Express server, all backed by a MySQL database.',
     tags: ["node", "materialize", "MySQL", "sequelize", "express", "heroku"]
+}, {
+    title: 'Scraping with Mongoose',
+    imageSrc: './assets/images/scraper.png',
+    imageAlt: 'Scraping with Mongoose',
+    live: 'https://scrapingwithmongoose.herokuapp.com/',
+    source: 'https://github.com/crussell84/ScrapingWithMongoose',
+    blurb: 'This site uses an express server to scrape article data from a news site and stores it in a MongoDB via Mongoose.',
+    tags: ["node", "bootstrap", "mongoDB", "mongoose", "express", "heroku", "handlebars"]
 }];
 
 function createCards(data) {
@@ -84,7 +92,7 @@ function createCards(data) {
         var tags = $('<div>').addClass('tagsDisplay d-flex justify-content-center');
         var tagsArray = element.tags;
         tagsArray.forEach(function (tag) {
-            var newBadge = $(`<span class="badge badge-secondary badge-pill center">${tag}</span>`);
+            var newBadge = $(`<span class="badge badge-secondary badge-pill center m-1">${tag}</span>`);
             newBadge.appendTo($(tags));
         });
         if (element.live) {var liveLink = $(`<a href="${element.live}" target="_blank" class="btn btn-primary m-1">Live</a>`);}

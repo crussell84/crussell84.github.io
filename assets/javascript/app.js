@@ -67,7 +67,7 @@ var projectData = [{
     imageSrc: './assets/images/boxer.png',
     imageAlt: 'Boxer',
     live: 'https://boxerinventory.herokuapp.com/',
-    source: 'https://github.com/crussell84/ProjectTwo',
+    source: 'https://github.com/crussell84/Boxer',
     blurb: 'Boxer is a lightweight, responsive inventory management tool built using Materialize, running on a Node Express server, all backed by a MySQL database.',
     tags: ["node", "materialize", "MySQL", "sequelize", "express", "heroku"]
 }, {

@@ -78,6 +78,14 @@ var projectData = [{
     source: 'https://github.com/crussell84/ScrapingWithMongoose',
     blurb: 'This site uses an express server to scrape article data from a news site and stores it in a MongoDB via Mongoose.',
     tags: ["node", "bootstrap", "mongoDB", "mongoose", "express", "heroku", "handlebars"]
+}, {
+    title: 'Memory Games',
+    imageSrc: './assets/images/memory.PNG',
+    imageAlt: 'Memory Games',
+    live: 'https://www.startwithaskateboard.com/MemoryGame/',
+    source: 'https://github.com/crussell84/MemoryGame',
+    blurb: 'This site is a simple memory game built using React and Materialize.',
+    tags: ["materialize", "react"]
 }];
 
 function createCards(data) {

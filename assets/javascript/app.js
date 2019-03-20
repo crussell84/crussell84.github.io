@@ -42,7 +42,7 @@ var projectData = [{
     title: 'MusixTube',
     imageSrc: './assets/images/MusixTube.png',
     imageAlt: 'MusixTube',
-    live: 'https://www.startwithaskateboard.com/musixTube',
+    live: 'https://www.startwithaskateboard.com/MusixTube',
     source: 'https://github.com/crussell84/musixTube',
     blurb: 'This site intergrates with the Musixmatch API and the YouTube Data API to allow users to watch videos of top rated tracks from the artists they search for.',
     tags: ["jQuery", "materialize", "firebase", "API"]
